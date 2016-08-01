@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="CSS/reset.css"/> <!--Clear browser default CSS Styles -->
+		<link type="text/css" rel="stylesheet" href="CSS/stylesheet.css"/>
+		<title>Google</title>
+	</head>
+	<body>
+	 	<div id ="topmenu">
+			<ul >
+				<li><div id="signin">Sign In</div></li>
+				<li><a href="#Apps"><img id ="apps" src = "images/apps.png" title ="Google Apps"/></a></li>
+				<li><a href="#Images">Images</li>
+				<li><a href="#Gmail">Gmail</a></li>
+  			</ul>
+		</div>	
+	</body>
+</html>
