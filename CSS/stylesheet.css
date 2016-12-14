@@ -7,7 +7,6 @@
 body {
 	font-size: small;
 	font-family: arial, sans-serif;
-	border: 1px solid black;
 }
 
 a {
@@ -21,10 +20,6 @@ ul {
 
 a:hover {
 	text-decoration: underline;
-}
-
-a:link, a:visited {
-	color: black;
 }
 
 nav {
@@ -71,7 +66,7 @@ body {
    top: 50%;
    left: 50%;
    width: 490px;
-   margin-top: -160px; /* Half the height */
+   margin-top: -200px; /* Half the height */
    margin-left: -245px; /* Half the width */
 }
 
@@ -102,3 +97,39 @@ input {
  	font-weight: 600;
  	border: none;
  }
+
+/*
+ *****************************************
+ * Section Header =footer
+ *****************************************
+*/
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 45px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+.left-links, .right-links {
+	position: relative;
+	margin-top: 15px;
+}
+.left-links {
+	float: left;
+}
+
+.right-links {
+	float: right;
+}
+
+.left-links a, .right-links a {
+	color: #666;
+}
+
+#last {
+	padding-right: 15px;
+}
