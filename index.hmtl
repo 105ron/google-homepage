@@ -3,6 +3,7 @@
 	<head>
 		<link type="text/css" rel="stylesheet" href="CSS/reset.css"/> <!--Clear browser default CSS Styles -->
 		<link type="text/css" rel="stylesheet" href="CSS/stylesheet.css"/>
+		<link rel="icon" href="images/googleg_lodp.ico" sizes="32x32">
 		<title>Google</title>
 	</head>
 	<body>
